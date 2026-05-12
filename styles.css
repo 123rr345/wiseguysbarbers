@@ -459,7 +459,7 @@ ul {
 
 .services-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 24px;
 }
 
@@ -505,10 +505,35 @@ ul {
     margin-bottom: 20px;
 }
 
+.service-meta {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 16px;
+}
+
+.service-duration {
+    font-size: 0.8rem;
+    color: var(--color-text-subtle);
+    background: rgba(255, 255, 255, 0.05);
+    padding: 4px 10px;
+    border-radius: 20px;
+    border: 1px solid var(--color-border);
+}
+
+.service-badge {
+    font-size: 0.75rem;
+    color: var(--color-accent);
+    background: rgba(196, 30, 42, 0.1);
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-weight: 500;
+}
+
 .service-price {
     font-family: var(--font-heading);
-    font-size: 1.1rem;
-    font-weight: 600;
+    font-size: 1.3rem;
+    font-weight: 700;
     color: var(--color-accent);
 }
 
