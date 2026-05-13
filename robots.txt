@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://123rr345.github.io/wiseguysbarbers/sitemap.xml
